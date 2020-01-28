@@ -4,7 +4,8 @@
     "version": "5.1.3",
     "scripts": {
         "build": "gulp",
-        "start": "node_modules/.bin/gulp watch"
+        "start": "node_modules/.bin/gulp watch",
+        "lite": "lite-server"
     },
     "description": "A freelancer portfolio HTML theme for Bootstrap.",
     "keywords": [
