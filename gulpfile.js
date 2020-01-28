@@ -30,7 +30,7 @@ function browserSync(done) {
   browsersync.init({
     server: {
       baseDir: "./",
-      browser: "google chrome"
+      browser: ["chrome.exe"]
     },
     port: 3000
   });
