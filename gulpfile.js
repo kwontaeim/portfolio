@@ -32,7 +32,7 @@ function browserSync(done) {
       baseDir: "./",
       browser: ["chrome.exe"]
     },
-    port: process.env.PORT || 3000
+    port: process.env.PORT || 3000 // for heroku it needs to be dynamic.
   });
   done();
 }
